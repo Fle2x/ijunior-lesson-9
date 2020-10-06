@@ -8,9 +8,9 @@ public class Player : MonoBehaviour
     [SerializeField] private Text _healthValue;
     [SerializeField] private HealthBar _healthBar;
 
-    [SerializeField] private float _currentHealth = 100f;
-    [SerializeField] private float _maxHealth = 100f;
-    [SerializeField] private float _minHealth = 0f;
+    [SerializeField] private float _currentHealth;
+    [SerializeField] private float _maxHealth;
+    [SerializeField] private float _minHealth;
 
     public float maxHealth => _maxHealth;
     public float minHealth => _minHealth;
