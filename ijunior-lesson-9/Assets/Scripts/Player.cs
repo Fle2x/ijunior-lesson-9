@@ -14,6 +14,7 @@ public class Player : MonoBehaviour
 
     public float maxHealth => _maxHealth;
     public float minHealth => _minHealth;
+    public float currentHealth => _currentHealth;
 
     void Update()
     {

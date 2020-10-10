@@ -15,6 +15,7 @@ public class HealthBar : MonoBehaviour
     {
         _healthSlider.minValue = _player.minHealth;
         _healthSlider.maxValue = _player.maxHealth;
+        _healthSlider.value = _player.currentHealth;
     }
 
     public void SetHealthSlider(float health)
